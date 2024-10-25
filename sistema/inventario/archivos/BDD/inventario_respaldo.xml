@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<django-objects version="1.0">
+    <object model="inventario.usuario" pk="1">
+        <field name="last_login" type="DateTimeField">2020-06-09T18:59:58.342067+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2019-03-14T15:29:13.133871+00:00</field>
+        <field name="username" type="CharField">superadmin</field>
+        <field name="password" type="CharField">pbkdf2_sha256$120000$9mjuMUsIvrio$lJNJ4AP1AqLGh9z4lTV+NsIaXAuEt5A4Pjc48DUsXa8=</field>
+        <field name="email" type="CharField">correo@correo.com</field>
+        <field name="first_name" type="CharField">Nombre-Aleatorio</field>
+        <field name="last_name" type="CharField">Apellido-Aleatorio</field>
+        <field name="nivel" type="IntegerField">2</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="inventario.usuario" pk="8">
+        <field name="last_login" type="DateTimeField">2024-10-23T22:33:14.033367+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2020-06-09T21:07:40.495657+00:00</field>
+        <field name="username" type="CharField">admin</field>
+        <field name="password" type="CharField">pbkdf2_sha256$120000$tHPrrlzFwfiT$XetXTEGB2iIm3GIMaIkuWiw1cqJEMK68LM6EB/YMXhQ=</field>
+        <field name="email" type="CharField">correocualquiera@correo.com</field>
+        <field name="first_name" type="CharField">nombre</field>
+        <field name="last_name" type="CharField">apellido</field>
+        <field name="nivel" type="IntegerField">1</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="inventario.usuario" pk="9">
+        <field name="last_login" type="DateTimeField">2024-10-23T22:35:00.892667+00:00</field>
+        <field name="is_superuser" type="BooleanField">True</field>
+        <field name="is_staff" type="BooleanField">True</field>
+        <field name="is_active" type="BooleanField">True</field>
+        <field name="date_joined" type="DateTimeField">2024-10-14T06:03:55.991219+00:00</field>
+        <field name="username" type="CharField">mtorresg</field>
+        <field name="password" type="CharField">pbkdf2_sha256$120000$cWEifVZoZeaU$YjSQyCKaGv/Rmo8gr2rCwPQH4H+ODSdnp0+HqgyQ7h0=</field>
+        <field name="email" type="CharField">mtorresg@miumg.edu.gt</field>
+        <field name="first_name" type="CharField">Melvin</field>
+        <field name="last_name" type="CharField">Torres</field>
+        <field name="nivel" type="IntegerField">1</field>
+        <field name="groups" rel="ManyToManyRel" to="auth.group"></field>
+        <field name="user_permissions" rel="ManyToManyRel" to="auth.permission"></field>
+    </object>
+    <object model="inventario.opciones" pk="1">
+        <field name="moneda" type="CharField">Q</field>
+        <field name="valor_iva" type="IntegerField">12</field>
+        <field name="nombre_negocio" type="CharField">Discard, S.A.</field>
+        <field name="mensaje_factura" type="TextField">Cardamomo el oro verde de Guatemala!</field>
+    </object>
+    <object model="inventario.producto" pk="34">
+        <field name="descripcion" type="CharField">Cardamo quintal</field>
+        <field name="precio" type="DecimalField">7600.00</field>
+        <field name="disponible" type="IntegerField">0</field>
+        <field name="categoria" type="CharField">4</field>
+        <field name="tiene_iva" type="BooleanField">True</field>
+    </object>
+    <object model="inventario.proveedor" pk="8">
+        <field name="cedula" type="CharField">258951176010</field>
+        <field name="nombre" type="CharField">Weslin Arturo</field>
+        <field name="apellido" type="CharField">Torres García</field>
+        <field name="direccion" type="CharField">1 calle zona 2 Coban A.V.</field>
+        <field name="nacimiento" type="DateField">1992-07-06</field>
+        <field name="telefono" type="CharField">502 3295 9024</field>
+        <field name="telefono2" type="CharField"></field>
+        <field name="correo" type="CharField">weslintorres@gmail.com</field>
+        <field name="correo2" type="CharField">weslintorres@gmail.com</field>
+    </object>
+</django-objects>
