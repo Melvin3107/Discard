@@ -1,3 +1,4 @@
 reportlab==3.5.0
 xhtml2pdf==0.2.3
 Django==4.2.4
+psycopg2-binary==2.9.5
