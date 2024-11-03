@@ -8,8 +8,8 @@ services:
       - "8032:8032"
     volumes:
       - .:/app
-    environment:
-      - DATABASE_URL=postgres://admin:admin@db:5432/BDD  # URL de conexión para PostgreSQL
+#    environment:
+#      - DATABASE_URL=postgres://admin:admin@db:5432/BDD  # URL de conexión para PostgreSQL
 #    depends_on:
 #      - db
 
