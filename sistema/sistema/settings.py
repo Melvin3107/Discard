@@ -29,6 +29,8 @@ DEBUG = True
 ALLOWED_HOSTS = ['208.68.37.46', 'localhost', '127.0.0.1']
 
 
+DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
 # Application definition
 
 INSTALLED_APPS = [
